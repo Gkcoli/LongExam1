@@ -113,7 +113,7 @@ public class Login {
 	                        window2.frmDiscountSystem.setVisible(true);
 	                        frmLogin.dispose();
 	                    } else {
-	                        if (!userText.equals("Colee")) {
+	                        if (!userText.equals("Admin1")) {
 	                            JOptionPane.showMessageDialog(null, "Incorrect username. Please try again.");
 	                        } else if(!pwdText.equals("Ryujin123")) {
 	                            JOptionPane.showMessageDialog(null, "Incorrect password. Please try again.");
