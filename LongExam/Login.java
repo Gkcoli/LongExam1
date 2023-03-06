@@ -106,7 +106,7 @@ public class Login {
 					String pwdText;
 					userText = txtField.getText();
 	                pwdText = passwordField.getText();
-	                    if (userText.equals("Colee") && pwdText.equals("Ryujin123")) {
+	                    if (userText.equals("Admin1") && pwdText.equals("Pass123")) {
 	                        JOptionPane.showMessageDialog(btnNewButton, "Redirecting to Next Page", "Login Successfully", 1);
 	                        
 	                        DiscountSystemPractice window2 = new DiscountSystemPractice();
